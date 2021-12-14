@@ -11,7 +11,7 @@
  Target Server Version : 50562
  File Encoding         : 65001
 
- Date: 14/12/2021 12:53:34
+ Date: 14/12/2021 13:15:12
 */
 
 SET NAMES utf8mb4;
@@ -36,7 +36,7 @@ CREATE TABLE `ligue1`  (
 -- ----------------------------
 -- Records of ligue1
 -- ----------------------------
-INSERT INTO `ligue1` VALUES (1, 'Paris Saint-Germain Football Club', '巴黎圣日耳曼', 'PSG', '大巴黎', '波切蒂诺应该为教练的id', '王子公园球场应该为球场的id', 1);
-INSERT INTO `ligue1` VALUES (2, 'Olympique lyonnais', '奥林匹克里昂', 'OL/Lyon', '里昂', '鲁迪·加西亚', '卢米埃尔球场', 4);
+INSERT INTO `ligue1` VALUES (1, 'Paris Saint-Germain Football Club', '巴黎圣日耳曼', 'PSG', '大巴黎', '波切蒂诺应该为教练的id', '2', 1);
+INSERT INTO `ligue1` VALUES (2, 'Olympique lyonnais', '奥林匹克里昂', 'OL/Lyon', '里昂', '鲁迪·加西亚', '3', 4);
 
 SET FOREIGN_KEY_CHECKS = 1;
